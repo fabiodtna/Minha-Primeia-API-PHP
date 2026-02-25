@@ -21,11 +21,19 @@ O projeto foi construído utilizando **PHP puro**, com foco total em aprendizado
 
 A API funciona através de requisições `POST` e utiliza a **query string da URL** para definir qual ação será executada.
 
-Exemplo:
-api.php?login    ->  Logar Usuario 
-api.php?cadastro ->  Cadastrar User
-api.php?CRpost   ->  Criar Post 
-api.php?feed     ->  Mostrar feed
+## 📌 Exemplos de Rotas
+
+api.php?login  
+→ Logar usuário  
+
+api.php?cadastro  
+→ Cadastrar usuário  
+
+api.php?CRpost  
+→ Criar post  
+
+api.php?feed  
+→ Mostrar feed  
 
 
 Todos os dados são enviados em formato **JSON**, e todas as respostas também são retornadas em **JSON**, mantendo um padrão simples de comunicação.
